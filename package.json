@@ -1,0 +1,15 @@
+{
+  "name": "webgpu-text",
+  "version": "0.0.1",
+  "description": "Rendering text in WebGPU",
+  "main": "index.js",
+  "dependencies": {
+    "harfbuzzjs": "0.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "masiulis",
+  "license": "MIT"
+}
