@@ -3,12 +3,22 @@
   "version": "0.0.1",
   "description": "Rendering text in WebGPU",
   "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "npx playwright test",
+    "test:update-snapshots": "npx playwright test --update-snapshots",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "harfbuzzjs": "0.3.5"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "@playwright/test": "1.44.1",
+    "@types/node": "20.12.12",
+    "prettier": "3.2.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
   },
   "author": "masiulis",
   "license": "MIT"
