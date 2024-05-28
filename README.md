@@ -69,3 +69,17 @@ Paragraph (
 ```
 
 ## Rendering to canvas
+
+
+
+## Text selection
+
+  - [ ] Double clicking selects word
+  - [ ] Double Clicking on already selected word selects all text
+  - [ ] Shortcuts:
+    - [ ] shift+left arrow - select from word start
+    - [ ] shift+right arrow - select from word end
+    - [ ] shift+ctrl(cmd)+left arrow - select from line start
+    - [ ] shift+ctrl(cmd)+right arrow - select from line end
+    - [ ] ctrl(cmd)+a - select all
+  - [ ] Click drag
