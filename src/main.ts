@@ -7,6 +7,9 @@ const appNode = document.querySelector<HTMLDivElement>("#app")!;
 if (path === pages.all) {
   appNode.innerHTML = `
   <p>
+    The quick brown fox jumps over the lazy dog
+  </p>
+  <p>
     <b>Hello,</b> <i>World!</i>
   </p>
   <p>
