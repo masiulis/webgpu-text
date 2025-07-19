@@ -4,21 +4,20 @@
   "description": "Rendering text in WebGPU",
   "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "test": "npx playwright test",
-    "test:update-snapshots": "npx playwright test --update-snapshots",
-    "preview": "vite preview"
+    "build": "turbo build",
+    "test": "npx playwright test"
   },
-  "dependencies": {
-    "harfbuzzjs": "0.3.5"
-  },
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
-    "@playwright/test": "1.44.1",
-    "@types/node": "20.12.12",
-    "prettier": "3.2.5",
-    "typescript": "^5.2.2",
-    "vite": "^5.2.0"
+    "@playwright/test": "1.54.1",
+    "@types/node": "24.0.15",
+    "@webgpu/types": "0.1.64",
+    "prettier": "3.6.2",
+    "turbo": "2.5.5",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.5"
   },
   "author": "masiulis",
   "license": "MIT"

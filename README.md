@@ -1,6 +1,9 @@
 # webgpu-text
 A library to render text in WebGPU
 
+> [!CAUTION]
+> This library is not ment for production use yet.
+
 ## Installation
 
 ```shell

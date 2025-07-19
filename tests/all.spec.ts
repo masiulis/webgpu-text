@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { pages } from "../src/pages";
+import { pages } from "../packages/react-native-skia/pages";
 
 const SNAPSHOT = "all.png";
 

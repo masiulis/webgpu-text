@@ -1,0 +1,15 @@
+{
+  "name": "webgpu-text/react-native-skia",
+  "version": "0.0.1",
+  "description": "Rendering text in WebGPU with react-native-skia",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "npx playwright test",
+    "test:update-snapshots": "npx playwright test --update-snapshots",
+    "preview": "vite preview"
+  },
+  "author": "masiulis",
+  "license": "MIT"
+}

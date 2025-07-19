@@ -1,5 +1,6 @@
 import "./style.css";
 import { pages } from "./pages.ts";
+import { setupCanvas } from "./setupCanvas.ts";
 
 const path = window.location.pathname;
 const appNode = document.querySelector<HTMLDivElement>("#app")!;
@@ -20,9 +21,9 @@ if (path === pages.all) {
   </p>
 `;
 }
-
 if (path === pages.allWebGPU) {
   appNode.innerHTML = `
   <canvas id="canvas"/>
 `;
+  const webgpu = await setupCanvas("canvas");
 }
