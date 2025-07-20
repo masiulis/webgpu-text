@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { pages } from "../packages/react-native-skia/pages";
+import { pages } from "@webgpu-text/react-native-skia/lib/pages";
 
 const SNAPSHOT = "all.png";
 

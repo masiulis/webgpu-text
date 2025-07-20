@@ -1,15 +1,24 @@
 {
-  "name": "webgpu-text/react-native-skia",
-  "version": "0.0.1",
+  "name": "@webgpu-text/react-native-skia",
+  "version": "0.0.0",
+  "private": true,
   "description": "Rendering text in WebGPU with react-native-skia",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "test": "npx playwright test",
-    "test:update-snapshots": "npx playwright test --update-snapshots",
-    "preview": "vite preview"
+    "build": "tsc && vite build"
   },
   "author": "masiulis",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vite-plugin-node-polyfills": "0.24.0",
+    "vite-plugin-react-native-web": "2.2.1"
+  },
+  "dependencies": {
+    "@shopify/react-native-skia": "2.1.1",
+    "canvaskit-wasm": "0.40.0",
+    "react-native": "0.80.1",
+    "react-native-web": "0.20.0"
+  }
 }
